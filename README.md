@@ -2,7 +2,7 @@
 
 ## What it does
 
-This repo uses GitHub Pages to serve a set of HTML file redirects from the docs folder.
+This repo uses [GitHub Pages](https://pages.github.com/) to serve a set of HTML file redirects from the docs folder.
 
 The purpose of this repo is to make it easier for kids (and us adults) to type in URLs and access pages on the internet we use frequently.
 
@@ -30,7 +30,7 @@ git commit -m "<A short description of the changes>"
 git push
 ```
 
-Of course, if you're using a half-decent IDE like VS Code, this last stage can easily be done through the GUI.
+Of course, if you're using a half-decent IDE like [VS Code](https://code.visualstudio.com/), this last stage can easily be done through the GUI.
 
 ## The config file (redirects.json)
 
@@ -84,3 +84,7 @@ The HTML for these redirects is fairly simple, and consists of a meta redirect i
 	</body>
 </html>
 ```
+
+## Dependencies
+
+To keep things simple, this code has no external dependencies beyond having [Git](https://git-scm.com/) and [Node.js](https://nodejs.org/) installed.
