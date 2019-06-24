@@ -70,7 +70,7 @@ Please ensure that the config is a valid JSON file after you have finished editi
 
 ## How it works
 
-The `index.js` script reads the `redirects.json` config file and creates a containing subfolder and `index.html` file for each line in the config file.
+The `index.js` script reads the `redirects.json` config file and creates a containing subfolder and `index.html` file for each line in the config file, inside the docs folder. GitHub is then told, via the settings page, to serve up the docs folder as HTML, and given an external domain name to use.
 
 The HTML for these redirects is fairly simple, and consists of a meta redirect in the HTML's head, along with a clickable URL in the HTML body (just in case the head's redirect doesn't work). In the following HTML example, the `[url]` text would be substituted with the actual URL the file will redirect to:
 
