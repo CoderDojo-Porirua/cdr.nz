@@ -4,7 +4,7 @@
 
 This repo uses [GitHub Pages](https://pages.github.com/) to serve a set of HTML file redirects from the docs folder.
 
-The purpose of this repo is to make it easier for kids (and us adults) to type in URLs and access pages on the internet we use frequently.
+The purpose of this repo is to make it easier for kids (and us adults) to type in URLs and access the pages on the internet we use frequently during [CoderDojo Porirua](http://porirua.coderdojo.nz/) sessions.
 
 ## How to add a URL
 
@@ -22,7 +22,7 @@ Use node to run the `index.js` script. You can either run `node index.js`, or us
 npm start
 ```
 
-Finally, save your changes by adding any new files, commiting your changes locally to the repository and then pushing the changes up to GitHub:
+Finally, save your changes by adding any new files, commiting your changes locally to the repository and then pushing the changes up to [GitHub](https://github.com/):
 
 ```shell
 git add -A
@@ -70,7 +70,9 @@ Please ensure that the config is a valid JSON file after you have finished editi
 
 ## How it works
 
-The `index.js` script reads the `redirects.json` config file and creates a containing subfolder and `index.html` file for each line in the config file, inside the docs folder. GitHub is then told, via the settings page, to serve up the docs folder as HTML, and given an external domain name to use.
+The `index.js` script reads the `redirects.json` config file and creates a containing subfolder and `index.html` file for each line in the config file, inside the docs folder. Before generating these files, the script deletes the old `docs` folder, creates a new empty folder and copies over a couple of files from the root of the repository (`CNAME`, which tells GitHub the domain used for serving the files, and `favicon.ico`, a logo file for browsers).
+
+GitHub is told, via the repository's settings page, to serve up the docs folder as HTML, and given an external domain name to use.
 
 The HTML for these redirects is fairly simple, and consists of a meta redirect in the HTML's head, along with a clickable URL in the HTML body (just in case the head's redirect doesn't work). In the following HTML example, the `[url]` text would be substituted with the actual URL the file will redirect to:
 
