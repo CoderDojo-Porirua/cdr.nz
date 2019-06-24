@@ -1,0 +1,19 @@
+{
+  "name": "cdr.nz",
+  "version": "1.0.0",
+  "description": "Coderdojo Redirects",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/CoderDojo-Porirua/cdr.nz.git"
+  },
+  "author": "Mark Honeychurch",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/CoderDojo-Porirua/cdr.nz/issues"
+  },
+  "homepage": "https://github.com/CoderDojo-Porirua/cdr.nz#readme"
+}
