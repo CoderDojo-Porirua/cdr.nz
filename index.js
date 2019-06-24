@@ -5,7 +5,7 @@ const redirects = require(path.join(__dirname, "redirects.json"));
 const dist = "docs";
 
 redirects.forEach(redirect => {
-	const folder = path.join(dist, ...redirect.code.split(/\\\//));
+	const folder = path.join(dist, ...redirect.path.split(/\\\//));
 	fs.mkdirSync(folder, {recursive: true});
 	fs.writeFileSync(path.join(folder, "index.html"), `<html>
 	<head>
