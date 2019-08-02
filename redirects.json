@@ -5,7 +5,7 @@
 	{"path": "register", "url": "https://zen.coderdojo.com/dojos/nz/wellington/porirua/porirua"},
 
 
-	{"path": "proj/busmap1", "url": "https://metlink-bus-realtime-1.glitch.me/"},
-	{"path": "proj/busspeak1", "url": "https://glitch.com/~talking-metlink-2"}
+	{"path": "proj-busmap1", "url": "https://metlink-bus-realtime-1.glitch.me/"},
+	{"path": "proj-busspeak1", "url": "https://glitch.com/~talking-metlink-2"}
 
 ]
