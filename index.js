@@ -22,7 +22,7 @@ redirects.forEach(redirect => {
 		<meta http-equiv="Refresh" content="0; url=${redirect.url}" />
 	</head>
 	<body>
-		Redirecting to <a href="${redirect.url}">${redirect.url}</a>
+		<p>Redirecting to <a href="${redirect.url}">${redirect.url}</a></p>
 	</body>
 </html>`);
 });
