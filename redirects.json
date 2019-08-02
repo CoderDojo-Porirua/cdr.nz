@@ -1,5 +1,5 @@
 [
-	{"path": "", "url": "http://porirua.coderdojo.nz/"},
+	{"path": "", "url": "https://porirua.coderdojo.nz/"},
 	{"path": "join", "url": "https://zen.coderdojo.com/register/user"},
 	{"path": "admin", "url": "https://zen.coderdojo.com/dashboard/my-dojos"},
 	{"path": "admin/links", "url": "http://coderdojo.nz/resources/admin/urls"},
