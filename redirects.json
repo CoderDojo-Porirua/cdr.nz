@@ -2,5 +2,10 @@
 	{"path": "", "url": "http://porirua.coderdojo.nz/"},
 	{"path": "join", "url": "https://zen.coderdojo.com/register/user"},
 	{"path": "sand", "url": "https://docs.google.com/document/d/18fl_6vuBQsQqOrp9Wto4YTnt8y8Cb_ihhyfmUOXeUoE"},
-	{"path": "register", "url": "https://zen.coderdojo.com/dojos/nz/wellington/porirua/porirua"}
+	{"path": "register", "url": "https://zen.coderdojo.com/dojos/nz/wellington/porirua/porirua"},
+
+
+	{"path": "proj/busmap1", "url": "https://metlink-bus-realtime-1.glitch.me/"},
+	{"path": "proj/busspeak1", "url": "https://glitch.com/~talking-metlink-2"}
+
 ]
