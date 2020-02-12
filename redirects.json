@@ -8,5 +8,6 @@
 	{"path": "sand", "url": "https://docs.google.com/document/d/18fl_6vuBQsQqOrp9Wto4YTnt8y8Cb_ihhyfmUOXeUoE"},
 	{"path": "sand/video", "url": "https://www.facebook.com/watch/?v=1206028526208272"},
 	{"path": "bus", "url": "https://metlink-bus-realtime-1.glitch.me/"},
-	{"path": "bus/speak", "url": "https://glitch.com/~talking-metlink-2"}
+	{"path": "bus/speak", "url": "https://glitch.com/~talking-metlink-2"},
+	{"path": "talk", "url": "https://talking-metlink-3.glitch.me/"}
 ]
